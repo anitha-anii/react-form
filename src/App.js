@@ -11,7 +11,7 @@ const App = () => {
   const [formData, setFormData] = useState({
     email: '',
     name: '',
-    password: '',
+    password: '', 
     confirmPassword: '',
   });
 
