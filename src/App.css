@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+  background-color:#B1D9DB;
+  color: aliceblue;
   }
+.App{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height:100%;
+   }
+h2{
+  margin-top: 10%;
+  margin-left: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.icon img {
+  width: 461px;
+  height: 502px;
+  top: 220px;
+ margin-left: 60px;
+  transform: rotate(-10deg);
+}
+.icon{
+  width: 30%;
+  height: auto;
+}
+.myForm{
+  width: 70%;
+  height: 100%;
+  background-color: #FFFFFF;
+  color: black;
+ border-radius: 30px;
+ }
+ form {
+  margin-top: 5%;
+  margin-left: 25%;
+  width: 500px;
+  height: 550px;
+  }
+ .logo{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  justify-content: space-between;
+ }
+ h1{
+  margin-bottom: 10px;
+ }
+ span{
+  margin: 20px;
+  border: 1px solid rgb(223, 218, 218) ;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+ }
+ span img{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+ }
+ p{
+ text-align: center;
+ color:rgb(189, 186, 186) ;
+ }
+ input{
+  display: block;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid rgb(165, 162, 162);
 
-.App-link {
-  color: #61dafb;
-}
+ }
+ input:focus{
+  outline: none;
+ }
+ button{
+ width: 60%;
+ padding: 10px;
+ font-size: 16px;
+ background-color: #8fd6da;
+ color: #FFFFFF;
+ margin-left: 20%;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border: none;
+border-radius: 10px;
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ #sucess{
+  color: rgb(21, 119, 21);
+ }
+ #error{
+  color: rgb(199, 38, 9);
+ }
